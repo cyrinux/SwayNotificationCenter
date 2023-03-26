@@ -40,7 +40,7 @@ namespace SwayNotificationCenter {
 
         private double last_upper = 0;
 
-        private const int MAX_HEIGHT = 600;
+        private const int MAX_HEIGHT = 1600;
 
         private NotificationWindow () {
             if (!GtkLayerShell.is_supported ()) {
